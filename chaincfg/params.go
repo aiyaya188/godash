@@ -158,8 +158,8 @@ var MainNetParams = Params{
 	RelayNonStdTxs: false,
 
 	// Address encoding magics
-	PubKeyHashAddrID: 0x00, // starts with 1
-	ScriptHashAddrID: 0x05, // starts with 3
+	PubKeyHashAddrID: 76, // starts with 1
+	ScriptHashAddrID: 16, // starts with 3
 	PrivateKeyID:     0x80, // starts with 5 (uncompressed) or K (compressed)
 
 	// BIP32 hierarchical deterministic extended key magics
